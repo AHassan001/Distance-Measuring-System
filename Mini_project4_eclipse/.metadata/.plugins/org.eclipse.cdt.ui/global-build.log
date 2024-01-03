@@ -1,0 +1,41 @@
+Finished building target: Mini_Project_4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Mini_Project_4.elf  >"Mini_Project_4.lss"
+Finished building: Mini_Project_4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Mini_Project_4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9724 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+00:27:49 Build Finished. 0 errors, 1 warnings. (took 395ms)
+
+00:27:49 **** Incremental Build of configuration Debug for project Mini_Project_4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Mini_Project_4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9724 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

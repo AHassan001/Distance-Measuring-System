@@ -1,0 +1,22 @@
+
+ /******************************************************************************
+ *
+ * File Name: Mini_Project4.c
+ *
+ * Description: Main function of Mini Project 4
+ *
+ * Author: Abdelrahman Maher
+ *
+ ******************************************************************************/
+#include "lcd.h"
+
+void main(void)
+{
+	LCD_init();
+	LCD_displayStringRowColumn(0, 1,"Distance=    cm");
+
+	while(1)
+	{
+
+	}
+}

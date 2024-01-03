@@ -1,0 +1,37 @@
+ /******************************************************************************
+ *
+ * File Name: Mini_Project4.c
+ *
+ * Description: Main function of Mini Project 4
+ *
+ * Author: Abdelrahman Maher
+ *
+ ******************************************************************************/
+#include "lcd.h"
+#include "ultra_sonic.h"
+
+void main(void)
+{
+	int distance =0;
+
+	LCD_init();
+	Ultrasonic_init();
+
+	LCD_displayStringRowColumn(0, 1, "Distance=    cm");
+
+	while(1)
+	{
+		distance = 100;
+
+		LCD_moveCursor(0, 11);
+		if (distance >= 100)
+		{
+			LCD_intgerToString(distance);
+		}
+		else
+		{
+			LCD_intgerToString(distance);
+			LCD_displayCharacter(" ");
+		}
+	}
+}

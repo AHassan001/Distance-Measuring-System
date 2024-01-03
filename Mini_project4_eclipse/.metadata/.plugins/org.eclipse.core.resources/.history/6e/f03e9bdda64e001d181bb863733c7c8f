@@ -1,0 +1,24 @@
+ /******************************************************************************
+ *
+ * Module: Ultra Sonic
+ *
+ * File Name: ultra_sonic.h
+ *
+ * Description: Ultra sonic driver
+ *
+ * Author: Abdelrahman Maher
+ *
+ ******************************************************************************/
+
+
+#ifndef ULTRA_SONIC_H_
+#define ULTRA_SONIC_H_
+
+#include "std_types.h"
+
+void Ultrasonic_init(void);
+
+uint16 Ultrasonic_readDistance(void);
+
+
+#endif /* ULTRA_SONIC_H_ */

@@ -1,0 +1,19 @@
+ /******************************************************************************
+ *
+ * Module: Ultra Sonic
+ *
+ * File Name: ultra_sonic.h
+ *
+ * Description: Ultra sonic driver
+ *
+ * Author: Abdelrahman Maher
+ *
+ ******************************************************************************/
+
+
+#ifndef ULTRA_SONIC_H_
+#define ULTRA_SONIC_H_
+
+
+
+#endif /* ULTRA_SONIC_H_ */

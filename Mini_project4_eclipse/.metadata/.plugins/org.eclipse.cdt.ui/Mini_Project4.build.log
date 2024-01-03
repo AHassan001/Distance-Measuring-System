@@ -1,0 +1,12 @@
+15:18:00 **** Incremental Build of configuration Debug for project Mini_Project4 ****
+make all 
+Building file: ../Mini_Project4.c
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x3A0000, State 0x10000
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Mini_Project4.d" -MT"Mini_Project4.o" -c -o "Mini_Project4.o" "../Mini_Project4.c"
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [Mini_Project4.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+15:18:01 Build Failed. 1 errors, 0 warnings. (took 413ms)
+
